@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  display: grid;
+  grid-template: 'logo nav search' max-content / 50% 1fr 100px;
+  align-items: center;
+  justify-items: start;
+  padding: 20px 0;
+
+  text-transform: uppercase;
+}
+
+.header__logo-wrapper {
+  grid-area: logo;
+  justify-self: end;
+  padding-right: 40px;
+}
+
+.logo {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 900;
+  color: $color-red;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.header__nav {
+  grid-area: nav;
+
+  ul {
+    display: flex;
+    gap: 10px;
+  }
+  a {
+    padding: 15px;
+  }
+  a:hover {
+    color: $color-blue;
+  }
+}
+
+.search {
+  grid-area: search;
+}

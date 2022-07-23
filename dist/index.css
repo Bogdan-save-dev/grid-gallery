@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=PT+Sans:wght@300;400;900&display=swap"); /* colors */
+.header {
+  width: 100%;
+  display: grid;
+  grid-template: "logo nav search" max-content/50% 1fr 100px;
+  align-items: center;
+  justify-items: start;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+.header__logo-wrapper {
+  grid-area: logo;
+  justify-self: end;
+  padding-right: 40px;
+}
+
+.logo {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  color: #eb564f;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.header__nav {
+  grid-area: nav;
+}
+.header__nav ul {
+  display: flex;
+  gap: 10px;
+}
+.header__nav a {
+  padding: 15px;
+}
+.header__nav a:hover {
+  color: #54b9b4;
+}
+
+.search {
+  grid-area: search;
+}
+
+/* 
+    font-family: 'Fira Sans', sans-serif; 300,400,900 f
+    font-family: 'PT Sans', sans-serif; 300,400
+ */
+body {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
