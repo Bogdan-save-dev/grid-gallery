@@ -7,6 +7,8 @@
   padding: 20px 0;
 
   text-transform: uppercase;
+
+  overflow: hidden;
 }
 
 .header__logo-wrapper {
@@ -32,12 +34,50 @@
   }
   a {
     padding: 15px;
+    transition: color 0.2s ease-in-out;
+    position: relative;
+    display: inline-block;
   }
   a:hover {
     color: $color-blue;
+  }
+  a:active {
+    color: #44a7a2;
+  }
+
+  a::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+
+    background-color: $color-blue;
+
+    position: absolute;
+    left: 15px;
+    bottom: -200%;
+
+    transition: bottom 0.5s, background-color 0.2s;
+  }
+
+  a:hover::after {
+    bottom: -80%;
+  }
+  a:active::after {
+    background-color: #44a7a2;
   }
 }
 
 .search {
   grid-area: search;
+
+  &__icon {
+    transition: all 0.2s;
+  }
+
+  &:hover &__icon {
+    fill: $color-blue;
+  }
+  &__icon {
+  }
 }

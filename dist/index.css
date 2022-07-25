@@ -7,6 +7,7 @@
   justify-items: start;
   padding: 20px 0;
   text-transform: uppercase;
+  overflow: hidden;
 }
 
 .header__logo-wrapper {
@@ -32,15 +33,43 @@
 }
 .header__nav a {
   padding: 15px;
+  transition: color 0.2s ease-in-out;
+  position: relative;
+  display: inline-block;
 }
 .header__nav a:hover {
   color: #54b9b4;
+}
+.header__nav a:active {
+  color: #44a7a2;
+}
+.header__nav a::after {
+  content: "";
+  display: block;
+  width: 70%;
+  height: 100%;
+  background-color: #54b9b4;
+  position: absolute;
+  left: 15px;
+  bottom: -200%;
+  transition: bottom 0.5s, background-color 0.2s;
+}
+.header__nav a:hover::after {
+  bottom: -80%;
+}
+.header__nav a:active::after {
+  background-color: #44a7a2;
 }
 
 .search {
   grid-area: search;
 }
-
+.search__icon {
+  transition: all 0.2s;
+}
+.search:hover .search__icon {
+  fill: #54b9b4;
+}
 /* 
     font-family: 'Fira Sans', sans-serif; 300,400,900 f
     font-family: 'PT Sans', sans-serif; 300,400
