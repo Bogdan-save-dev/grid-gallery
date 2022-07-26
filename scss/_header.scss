@@ -30,10 +30,10 @@
 
   ul {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
   }
   a {
-    padding: 15px;
+    padding: 1.5rem;
     transition: color 0.2s ease-in-out;
     position: relative;
     display: inline-block;
@@ -54,7 +54,7 @@
     background-color: $color-blue;
 
     position: absolute;
-    left: 15px;
+    left: 1.5rem;
     bottom: -200%;
 
     transition: bottom 0.5s, background-color 0.2s;

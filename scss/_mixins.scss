@@ -6,4 +6,16 @@
   padding: 1rem 2rem;
   font-size: 1.5rem;
   transition: all 0.3s ease-in-out;
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
