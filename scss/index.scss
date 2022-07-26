@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=PT+Sans:wght@300;400;900&display=swap');
 
 @import 'vars';
+@import 'utils';
+@import 'mixins';
 @import 'header';
 @import 'main';
 
@@ -8,6 +10,9 @@
     font-family: 'Fira Sans', sans-serif; 300,400,900 f
     font-family: 'PT Sans', sans-serif; 300,400
  */
+html {
+  font-size: 10px;
+}
 
 body {
   font-family: 'PT Sans', sans-serif;

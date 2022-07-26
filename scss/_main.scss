@@ -9,21 +9,46 @@
   grid-template:
     'slider-arrows photo1 photo2 photo2' 3fr
     'slider-arrows photo1 slider-dots photo3' 1fr
-    'photo4  photo1 slider-dots photo3' 3fr / 2fr 1fr 1.5fr 1.5fr;
+    'photo4  photo1 slider-dots photo3' 3fr /
+    2fr 1fr 1.5fr 1.5fr;
 }
 .slider {
 }
 .slider-arrows {
+  grid-area: slider-arrows;
+  position: relative;
 }
 .slider-arrows__items-wrapper {
+  width: 100%;
+  height: 100%;
+  filter: brightness(60%);
+  display: flex;
 }
 .slider-arrows__item {
 }
 .slider-arrows__nav {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .slider-arrows_arrow {
+  color: #fff;
+  font-size: 30px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+
+  width: 50px;
+  height: 50px;
 }
 .btn {
+  @include button();
 }
 .slider-arrows__btn {
 }
