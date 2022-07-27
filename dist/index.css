@@ -79,7 +79,7 @@
 }
 .freshy {
   grid-area: freshy;
-  background-color: #cbe77e;
+  background-color: #bee163;
 }
 
 .common {
@@ -93,6 +93,7 @@
 
 .title {
   font-family: "Fira Sans", sans-serif;
+  text-transform: uppercase;
   font-size: 2.4rem;
   width: 14rem;
   font-weight: 300;
@@ -115,13 +116,34 @@
           hyphens: auto;
 }
 
+.healthy {
+  grid-area: healthy;
+  background-color: #eb564f;
+  padding-bottom: 8.5rem;
+}
+
+.thirsty {
+  background-color: #f4b85d;
+  grid-area: thirsty;
+}
+.thirsty .common__desc {
+  text-align: right;
+  max-width: 20rem;
+}
+
+.col-rev {
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+}
+
+.row-rev {
+  flex-direction: row-reverse;
+}
+
 .main {
   max-height: 100vh;
   display: grid;
-  grid-template-rows: 3fr 1fr 1fr;
-  grid-template-columns: 2fr 1fr 1.5fr 1.5fr;
-  grid-template-areas: "slider-arrows photo1 photo2 photo2" "slider-arrows photo1 slider-dots photo3" "photo4  photo1 slider-dots photo3";
-  grid-template: "slider-arrows photo1 photo2 photo2" 3fr "slider-arrows photo1 slider-dots photo3" 1fr "freshy  photo1 slider-dots photo3" 3fr/2fr 1fr 1.5fr 1.5fr;
+  grid-template: "slider-arrows healthy thirsty thirsty" 3fr "slider-arrows healthy slider-dots photo3" 1fr "freshy  healthy slider-dots photo3" 3fr/2fr 1fr 1.5fr 1.5fr;
 }
 
 .slider-arrows {

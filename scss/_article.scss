@@ -11,6 +11,7 @@
 }
 .title {
   font-family: 'Fira Sans', sans-serif;
+  text-transform: uppercase;
   font-size: 2.4rem;
   width: 14rem;
   font-weight: 300;
@@ -30,4 +31,29 @@
 .common__desc {
   max-width: 60%;
   hyphens: auto;
+}
+
+.healthy {
+  grid-area: healthy;
+  background-color: $color-red;
+  padding-bottom: 8.5rem;
+}
+
+.thirsty {
+  background-color: $color-orange;
+  grid-area: thirsty;
+
+  .common__desc {
+    text-align: right;
+    max-width: 20rem;
+  }
+}
+
+.col-rev {
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+}
+
+.row-rev {
+  flex-direction: row-reverse;
 }
