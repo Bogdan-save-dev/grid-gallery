@@ -1,0 +1,33 @@
+.freshy {
+  grid-area: freshy;
+  background-color: $color-green;
+}
+.common {
+  color: #fff;
+
+  @include flex-center;
+  gap: 3rem;
+  padding: 3rem;
+}
+.title {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2.4rem;
+  width: 14rem;
+  font-weight: 300;
+  line-height: 1;
+
+  & span {
+    font-size: 6rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    display: block;
+
+    &::first-line {
+      font-weight: 900;
+    }
+  }
+}
+.common__desc {
+  max-width: 60%;
+  hyphens: auto;
+}

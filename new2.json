@@ -1,0 +1,58 @@
+{
+  "nft": [
+    {
+      "file_path": "E:/bot/opensea-automatic-bulk-upload-and-sale/images/1.png",
+      "nft_name": "1",
+      "external_link": "",
+      "description": "",
+      "collection": "GNSS of the Phantoms (GOP)",
+      "properties": [
+        { "type": "Background", "value": "Background 6" },
+        { "type": "Base", "value": "Base 6" },
+        { "type": "Eyes", "value": "Eyes 5" },
+        { "type": "Hair", "value": "Hair 5" },
+        { "type": "Masks", "value": "Masks1" },
+        { "type": "Outfits", "value": "Outfit 1" }
+      ],
+      "levels": [],
+      "stats": [],
+      "unlockable_content": [false, ""],
+      "explicit_and_sensitive_content": false,
+      "supply": 1,
+      "blockchain": "Ethereum",
+      "sale_type": "",
+      "price": 1,
+      "method": [],
+      "duration": ["3 months"],
+      "specific_buyer": "",
+      "quantity": 1
+    },
+    {
+      "nft_name": "10",
+      "file_path": "E:/bot/opensea-automatic-bulk-upload-and-sale/images/10.png",
+      "external_link": "",
+      "description": "",
+      "collection": "GNSS of the Phantoms (GOP)",
+      "properties": [
+        { "type": "Background", "value": "Background 4" },
+        { "type": "Base", "value": "Base 3" },
+        { "type": "Eyes", "value": "Eyes 7" },
+        { "type": "Hair", "value": "Hair 3" },
+        { "type": "Masks", "value": "Masks 1" },
+        { "type": "Outfits", "value": "Outfit 1" }
+      ],
+      "levels": [],
+      "stats": [],
+      "unlockable_content": [false, ""],
+      "explicit_and_sensitive_content": false,
+      "supply": 1,
+      "blockchain": "Ethereum",
+      "sale_type": "",
+      "price": 1,
+      "method": [],
+      "duration": ["3 months"],
+      "specific_buyer": "",
+      "quantity": 1
+    }
+  ]
+}

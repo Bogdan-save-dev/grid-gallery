@@ -1,0 +1,249 @@
+{
+  "nft": [
+    {
+      "file_path": "E:/bot/opensea-automatic-bulk-upload-and-sale/images/1.png",
+      "nft_name": "my collection #1",
+      "external_link": "",
+      "description": "test",
+      "collection": "",
+      "properties": [
+        {
+          "type": "background",
+          "value": "rare"
+        },
+        {
+          "type": "weapons",
+          "value": "common"
+        },
+        {
+          "type": "base",
+          "value": "common"
+        },
+        {
+          "type": "eyes",
+          "value": "rare"
+        },
+        {
+          "type": "hair",
+          "value": "rare"
+        },
+        {
+          "type": "masks",
+          "value": "common"
+        },
+        {
+          "type": "outfits",
+          "value": "common"
+        }
+      ],
+      "levels": "",
+      "stats": "",
+      "unlockable_content": "",
+      "explicit_and_sensitive_content": "",
+      "supply": "1",
+      "blockchain": "Ethereum",
+      "sale_type": "",
+      "price": "0.05",
+      "method": "",
+      "duration": ["3 months"],
+      "specific_buyer": "",
+      "quantity": "1"
+    },
+    {
+      "file_path": "E:/bot/opensea-automatic-bulk-upload-and-sale/images/2.png",
+      "nft_name": "my collection #2",
+      "external_link": "",
+      "description": "test",
+      "collection": "",
+      "properties": [
+        {
+          "type": "background",
+          "value": "rare"
+        },
+        {
+          "type": "weapons",
+          "value": "rare"
+        },
+        {
+          "type": "base",
+          "value": "common"
+        },
+        {
+          "type": "eyes",
+          "value": "rare"
+        },
+        {
+          "type": "hair",
+          "value": "common"
+        },
+        {
+          "type": "masks",
+          "value": "rare"
+        },
+        {
+          "type": "outfits",
+          "value": "rare"
+        }
+      ],
+      "levels": "",
+      "stats": "",
+      "unlockable_content": "",
+      "explicit_and_sensitive_content": "",
+      "supply": "1",
+      "blockchain": "Ethereum",
+      "sale_type": "",
+      "price": "0.05",
+      "method": "",
+      "duration": ["3 months"],
+      "specific_buyer": "",
+      "quantity": "1"
+    },
+    {
+      "file_path": "E:/bot/opensea-automatic-bulk-upload-and-sale/images/3.png",
+      "nft_name": "my collection #3",
+      "external_link": "",
+      "description": "test",
+      "collection": "",
+      "properties": [
+        {
+          "type": "background",
+          "value": "rare"
+        },
+        {
+          "type": "weapons",
+          "value": "common"
+        },
+        {
+          "type": "base",
+          "value": "common"
+        },
+        {
+          "type": "eyes",
+          "value": "rare"
+        },
+        {
+          "type": "hair",
+          "value": "rare"
+        },
+        {
+          "type": "masks",
+          "value": "common"
+        },
+        {
+          "type": "outfits",
+          "value": "rare"
+        }
+      ],
+      "levels": "",
+      "stats": "",
+      "unlockable_content": "",
+      "explicit_and_sensitive_content": "",
+      "supply": "1",
+      "blockchain": "Ethereum",
+      "sale_type": "",
+      "price": "0.05",
+      "method": "",
+      "duration": ["3 months"],
+      "specific_buyer": "",
+      "quantity": "1"
+    },
+    {
+      "file_path": "E:/bot/opensea-automatic-bulk-upload-and-sale/images/4.png",
+      "nft_name": "my collection #4",
+      "external_link": "",
+      "description": "test",
+      "collection": "",
+      "properties": [
+        {
+          "type": "background",
+          "value": "rare"
+        },
+        {
+          "type": "weapons",
+          "value": "common"
+        },
+        {
+          "type": "base",
+          "value": "common"
+        },
+        {
+          "type": "eyes",
+          "value": "epic"
+        },
+        {
+          "type": "hair",
+          "value": "rare"
+        },
+        {
+          "type": "masks",
+          "value": "common"
+        },
+        {
+          "type": "outfits",
+          "value": "common"
+        }
+      ],
+      "levels": "",
+      "stats": "",
+      "unlockable_content": "",
+      "explicit_and_sensitive_content": "",
+      "supply": "1",
+      "blockchain": "Ethereum",
+      "sale_type": "",
+      "price": "0.05",
+      "method": "",
+      "duration": ["3 months"],
+      "specific_buyer": "",
+      "quantity": "1"
+    },
+    {
+      "file_path": "E:/bot/opensea-automatic-bulk-upload-and-sale/images/5.png",
+      "nft_name": "my collection #5",
+      "external_link": "",
+      "description": "test",
+      "collection": "",
+      "properties": [
+        {
+          "type": "background",
+          "value": "common"
+        },
+        {
+          "type": "weapons",
+          "value": "common"
+        },
+        {
+          "type": "base",
+          "value": "common"
+        },
+        {
+          "type": "eyes",
+          "value": "rare"
+        },
+        {
+          "type": "hair",
+          "value": "rare"
+        },
+        {
+          "type": "masks",
+          "value": "epic"
+        },
+        {
+          "type": "outfits",
+          "value": "common"
+        }
+      ],
+      "levels": "",
+      "stats": "",
+      "unlockable_content": "",
+      "explicit_and_sensitive_content": "",
+      "supply": "1",
+      "blockchain": "Ethereum",
+      "sale_type": "",
+      "price": "0.05",
+      "method": "",
+      "duration": ["3 months"],
+      "specific_buyer": "",
+      "quantity": "1"
+    }
+  ]
+}

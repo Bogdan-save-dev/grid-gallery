@@ -77,13 +77,51 @@
 .search:hover .search__icon {
   fill: #54b9b4;
 }
+.freshy {
+  grid-area: freshy;
+  background-color: #cbe77e;
+}
+
+.common {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 3rem;
+}
+
+.title {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 2.4rem;
+  width: 14rem;
+  font-weight: 300;
+  line-height: 1;
+}
+.title span {
+  font-size: 6rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  display: block;
+}
+.title span::first-line {
+  font-weight: 900;
+}
+
+.common__desc {
+  max-width: 60%;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
+
 .main {
   max-height: 100vh;
   display: grid;
   grid-template-rows: 3fr 1fr 1fr;
   grid-template-columns: 2fr 1fr 1.5fr 1.5fr;
   grid-template-areas: "slider-arrows photo1 photo2 photo2" "slider-arrows photo1 slider-dots photo3" "photo4  photo1 slider-dots photo3";
-  grid-template: "slider-arrows photo1 photo2 photo2" 3fr "slider-arrows photo1 slider-dots photo3" 1fr "photo4  photo1 slider-dots photo3" 3fr/2fr 1fr 1.5fr 1.5fr;
+  grid-template: "slider-arrows photo1 photo2 photo2" 3fr "slider-arrows photo1 slider-dots photo3" 1fr "freshy  photo1 slider-dots photo3" 3fr/2fr 1fr 1.5fr 1.5fr;
 }
 
 .slider-arrows {
@@ -158,6 +196,11 @@
   height: 1rem;
   background-color: #fff;
   border-radius: 50%;
+}
+
+.slider-dots__nav-item--active {
+  background-color: transparent;
+  border: 1px solid #fff;
 }
 
 /* 
